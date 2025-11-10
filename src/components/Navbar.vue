@@ -25,7 +25,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 
-import { ChevronsDown, Menu } from "lucide-vue-next";
+import { Menu } from "lucide-vue-next";
 import ToggleTheme from "./ToggleTheme.vue";
 
 interface RouteProps {
