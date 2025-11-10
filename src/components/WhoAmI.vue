@@ -49,8 +49,7 @@ const iconMap: Record<string, any> = {
 };
 
 const withBase = (p: string) =>
-  new URL(p.startsWith('/') ? p.slice(1) : p, import.meta.env.BASE_URL).href;
-
+  import.meta.env.BASE_URL + (p.startsWith('/') ? p.slice(1) : p);
 </script>
 
 <template>
