@@ -13,30 +13,30 @@ const storyList: StoryItem[] = [
     icon: "graduation",
     title: "Ancien élève d'IMT Mines Alès — Promo FIG 173",
     logos: [
-      { alt: "IMT Mines Alès", src: "public/imt-mines-ales.svg" }, // << remplace le chemin
+      { alt: "IMT Mines Alès", src: "/imt-mines-ales.svg" }, // << remplace le chemin
     ],
   },
   {
     icon: "rocket",
     title: "BDE Hierog'list & projets d'école (Komi, UberEMA...)",
     logos: [
-      { alt: "BDE Hierog'list", src: "public/Hieroglist.png" }, // << remplace
-      { alt: "Komi", src: "public/Komi.png" }, // << remplace
+      { alt: "BDE Hierog'list", src: "/Hieroglist.png" }, // << remplace
+      { alt: "Komi", src: "/Komi.png" }, // << remplace
     ],
   },
   {
     icon: "users",
     title: "Ancien ambassadeur étudiant (Konect Group, Karos)",
     logos: [
-      { alt: "Konect", src: "public/Konect.jpeg" }, // << remplace
-      { alt: "Karos", src: "public/Karos.png" }, // << remplace
+      { alt: "Konect", src: "/Konect.jpeg" }, // << remplace
+      { alt: "Karos", src: "/Karos.png" }, // << remplace
     ],
   },
   {
     icon: "clapperboard",
     title: "De nombreux projets vidéo liés à la vie associative",
     logos: [
-      { alt: "Down", src: "public/arrowDown.png" }, // << remplace
+      { alt: "Down", src: "/arrowDown.png" }, // << remplace
     ], // ajoute des logos si tu en as pour les assos
   },
 ];
@@ -110,7 +110,7 @@ const iconMap: Record<string, any> = {
       <!-- Colonne photo -->
       <div class="w-full flex justify-center">
         <img
-          src="public/Me.JPG"
+          src="/Me.JPG"
           alt="Moi"
           class="w-[180px] md:w-[260px] lg:w-[380px] mx-auto rounded-xl shadow-lg"
         />
