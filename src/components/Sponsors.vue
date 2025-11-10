@@ -26,6 +26,9 @@ const sponsors: sponsorsProps[] = [
     name: "Komi",
   },
 ];
+  
+const resolveAsset = (path: string) =>
+  new URL(path.startsWith("/") ? path : `/${path}`, import.meta.env.BASE_URL).href;
 
 </script>
 
@@ -50,7 +53,7 @@ const sponsors: sponsorsProps[] = [
           <div class="flex items-center text-xl md:text-2xl font-medium px-5 gap-3">
             <img
                   :key="icon.alt"
-                  :src="icon.src"
+                  :src="resolveAsset(logo.src)"
                   :alt="icon.alt"
                   class="h-8 md:h-10 object-contain"
                   loading="lazy"
