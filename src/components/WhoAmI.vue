@@ -13,30 +13,30 @@ const storyList: StoryItem[] = [
     icon: "graduation",
     title: "Ancien élève d'IMT Mines Alès — Promo FIG 173",
     logos: [
-      { alt: "IMT Mines Alès", src: "../../public/logos/imt-mines-ales.svg" }, // << remplace le chemin
+      { alt: "IMT Mines Alès", src: "../../public/imt-mines-ales.svg" }, // << remplace le chemin
     ],
   },
   {
     icon: "rocket",
     title: "BDE Hierog'list & projets d'école (Komi, UberEMA...)",
     logos: [
-      { alt: "BDE Hierog'list", src: "../../public/logos/Hieroglist.png" }, // << remplace
-      { alt: "Komi", src: "../../public/logos/Komi.png" }, // << remplace
+      { alt: "BDE Hierog'list", src: "../../public/Hieroglist.png" }, // << remplace
+      { alt: "Komi", src: "../../public/Komi.png" }, // << remplace
     ],
   },
   {
     icon: "users",
     title: "Ancien ambassadeur étudiant (Konect Group, Karos)",
     logos: [
-      { alt: "Konect", src: "../../public/logos/Konect.jpeg" }, // << remplace
-      { alt: "Karos", src: "../../public/logos/Karos.png" }, // << remplace
+      { alt: "Konect", src: "../../public/Konect.jpeg" }, // << remplace
+      { alt: "Karos", src: "../../public/Karos.png" }, // << remplace
     ],
   },
   {
     icon: "clapperboard",
     title: "De nombreux projets vidéo liés à la vie associative",
     logos: [
-      { alt: "Down", src: "../../public/logos/arrowDown.png" }, // << remplace
+      { alt: "Down", src: "../../public/arrowDown.png" }, // << remplace
     ], // ajoute des logos si tu en as pour les assos
   },
 ];
