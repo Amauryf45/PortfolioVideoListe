@@ -10,19 +10,19 @@ interface sponsorsProps {
 
 const sponsors: sponsorsProps[] = [
   {
-    icon: { alt: "Logo Magiciens", src: "../../public/Magicien.png" },
+    icon: { alt: "Logo Magiciens", src: "public/Magicien.png" },
     name: "Les Magiciens",
   },
   {
-    icon: { alt: "Logo Cambriol'Art", src: "../../public/Cambriolart.png" },
+    icon: { alt: "Logo Cambriol'Art", src: "public/Cambriolart.png" },
     name: "Cambriol'Art",
   },
   {
-    icon: { alt: "Logo Interstell'Art", src: "../../public/Interstellart.png" },
+    icon: { alt: "Logo Interstell'Art", src: "public/Interstellart.png" },
     name: "Interstell'Art",
   },
   {
-    icon: { alt: "Logo Komi", src: "../../public/Komi.png" },
+    icon: { alt: "Logo Komi", src: "public/Komi.png" },
     name: "Komi",
   },
 ];
