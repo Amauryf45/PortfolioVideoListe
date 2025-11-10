@@ -21,7 +21,7 @@ const storyList: StoryItem[] = [
     title: "BDE Hierog'list & projets d'école (Komi, UberEMA...)",
     logos: [
       { alt: "BDE Hierog'list", src: "/Hieroglist.png" }, // << remplace
-      { alt: "Komi", src: "/Komi.png" }, // << remplace
+      { alt: "Komi", src: "/komi.png" }, // << remplace
     ],
   },
   {
