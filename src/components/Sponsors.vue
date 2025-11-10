@@ -27,8 +27,7 @@ const sponsors: sponsorsProps[] = [
   },
 ];
   
-const resolveAsset = (path: string) =>
-  new URL(path.startsWith("/") ? path : `/${path}`, import.meta.env.BASE_URL).href;
+const withBase = (p: string) => new URL(p, import.meta.env.BASE_URL).href;
 
 </script>
 
@@ -53,7 +52,7 @@ const resolveAsset = (path: string) =>
           <div class="flex items-center text-xl md:text-2xl font-medium px-5 gap-3">
             <img
                   :key="icon.alt"
-                  :src="resolveAsset(icon.src)"
+                  :src="withBase(icon.src)"
                   :alt="icon.alt"
                   class="h-8 md:h-10 object-contain"
                   loading="lazy"
